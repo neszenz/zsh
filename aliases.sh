@@ -7,7 +7,7 @@ alias v=nvim
 alias _ls="/usr/bin/env ls"
 alias ls='exa'
 alias ll='exa -lF'
-alias la='exa -lF -A'
+alias la='exa -lF -a'
 alias tree='exa --tree'
 
 alias _cat="/usr/bin/env cat"
