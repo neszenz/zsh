@@ -27,8 +27,7 @@ export KEYTIMEOUT=1 # o.1 seconds delay after <esc>
 source /etc/profile
 eval "$(zoxide init --cmd cd zsh)"
 
-use_fancy_starship_prompt=true
-if [ "$use_fancy_starship_prompt" = true ]; then
+if command -v starship &> /dev/null; then
     eval "$(starship init zsh)"
     eval "$(starship completions zsh)"
 else
