@@ -23,6 +23,7 @@ SAVEHIST=10000
 setopt appendhistory autocd extendedglob
 
 export KEYTIMEOUT=1 # o.1 seconds delay after <esc>
+export EDITOR=nvim
 
 source /etc/profile
 eval "$(zoxide init --cmd cd zsh)"
